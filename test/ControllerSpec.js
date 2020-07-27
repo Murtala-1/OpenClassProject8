@@ -100,7 +100,7 @@ describe('controller', function () {
 			var todoArray = [
                 {title: 'my todo', completed: true},
                 {title: 'my todo2', completed: false},
-                {title: 'my todo3', completed: false}
+                {title: 'my todo3', completed: true}
             ];
             setUpModel(todoArray);
             subject.setView('');
@@ -113,7 +113,7 @@ describe('controller', function () {
 			var todoArray = [
                 {title: 'my todo', completed: true},
                 {title: 'my todo2', completed: false},
-                {title: 'my todo3', completed: false}
+                {title: 'my todo3', completed: true}
             ];
             setUpModel(todoArray);
             subject.setView('');
